@@ -33,4 +33,4 @@ Modeling: Trained Decision Tree, Random Forest, Gradient Boosting, Linear Regres
 Evaluation: Used accuracy, precision and R2-score to evaluate models.
 
 ## User Interface
-![Alt text](src/__pycache__/Screenshot%202025-02-08%20090621.png)
+![view](src/Screenshot%202025-02-08%20090621.png)
