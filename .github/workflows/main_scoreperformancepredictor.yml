@@ -46,6 +46,9 @@ jobs:
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
+      - name: Clear GitHub Actions cache
+        run: gh actions cache delete-all
+
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
